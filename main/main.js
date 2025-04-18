@@ -16,7 +16,7 @@ document.getElementById("myForm").addEventListener("submit", function (e) {
     var lastName = document.getElementById('lastName').value.trim();
     var phone = document.getElementById('phoneNumber');
     var mail = document.getElementById('emailAdress');
-    var atmail = /@gmail.com/;
+    var atmail = /@gmail.com/;  /* Regex */
     var onlynumbers = /^[0-9]{10}$/;
     
     
